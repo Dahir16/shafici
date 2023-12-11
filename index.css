@@ -93,7 +93,7 @@ span {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1231px) {
+@media (min-width: 1231px) {
   .landing_page {
     height: 200px;
     width: 100%;
