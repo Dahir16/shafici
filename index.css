@@ -38,8 +38,28 @@ h1 {
   font-size: 50px;
 }
 
+.ftr {
+  background: linear-gradient(to right, rgb(0, 255, 64), rgba(255, 255, 255, 0.6), rgb(255, 157, 0));
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-weight: 900;
+}
+
+.icon {
+  margin-left: 11px;
+  font-size: 30px;
+  color: rgb(173, 173, 173);
+}
+
+.icon:hover {
+  color: green;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .apart {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .banner {
@@ -53,6 +73,7 @@ span {
 
 .i {
   transition: all 0.3s;
+  color: rgb(218, 218, 218);
 }
 
 .section {
@@ -70,4 +91,38 @@ span {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1231px) {
+  .landing_page {
+    height: 200px;
+    width: 100%;
+  }
+  .card-image-top {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+  }
+  .card-title,
+  .service {
+    font-size: 13px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .titleu {
+    font-size: 23px;
+  }
+  .apart {
+    padding-bottom: 150px;
+  }
+  .form {
+    width: 100px;
+  }
+  .banner {
+    height: 250px;
+  }
+  .search {
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=index.css.map */
